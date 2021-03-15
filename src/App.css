@@ -1,0 +1,116 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: digital;
+}
+
+.calculator-app {
+  background-color: #121314;
+  padding: 15px;
+  border-radius: 5px;
+}
+#display {
+  text-align: end;
+}
+
+.calcBtnContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  min-height: 50vh;
+  min-width: 35vw;
+}
+.numberBtn {
+  background-color: azure;
+  font-family: Share Tech Mono, monospace;
+}
+
+#zero {
+  grid-column: auto/ span 2;
+  font-family: Share Tech Mono, monospace;
+}
+
+#equals {
+  grid-row: auto/ span 2;
+  font-family: Share Tech Mono, monospace;
+}
+
+button {
+  border: 1px solid white;
+  font-size: 1.75rem;
+  font-family: Share Tech Mono, monospace;
+}
+
+button:hover {
+  background-color: #7ab2c2;
+}
+
+button:active {
+  background-color: #196479;
+}
+
+#equals {
+  background-color: #2aa6c9;
+}
+#equals:hover {
+  background-color: #4eadc7;
+}
+#equals:active {
+  background-color: #4391a7;
+}
+
+#deleteBtn {
+  background-color: #be8787;
+}
+#deleteBtn:hover {
+  background-color: #c4a1a1;
+}
+#deleteBtn:active {
+  background-color: #a58d8d;
+}
+
+#clear {
+  background-color: #c94343;
+}
+#clear:hover {
+  background-color: #ce6363;
+}
+#clear:active {
+  background-color: #9b3939;
+}
+
+.symbolBtn {
+  background-color: #c98f43;
+}
+.symbolBtn:hover {
+  background-color: #c99d63;
+}
+.symbolBtn:active {
+  background-color: #aa7939;
+}
