@@ -1,4 +1,4 @@
-# Drum Machine
+# Javascript Calculator
 
 This is a Calculator, built as part of the freeCodeCamp Front End Development Libraries Certification
 
