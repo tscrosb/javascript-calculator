@@ -5,6 +5,8 @@ function App() {
   const [input, setInput] = useState("0");
 
   const handleInput = char => {
+    //use regular expressions to check if input is valid
+
     const handleDecimal = () => {
       const lastNumHasDecimalRegex = /([\d]*\.[\d]*)$/;
       const endsWithSymbolRegex = /[+\-*/]$/;
